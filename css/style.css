@@ -362,6 +362,10 @@ li:hover .text-overlay {
     height: 40px;
 }
 
+.about-page{
+    
+}
+
 .svg-contacts:hover,
 .svg-contacts:active {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
