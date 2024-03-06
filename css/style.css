@@ -569,8 +569,7 @@ li:hover .text-overlay {
 }
 
 .footer-svg .link-svg-item:hover .svg-contacts,
-.footer-svg .link-svg-item:focus .svg-contacts,
-.footer-svg .link-svg-item:active .svg-contacts{
+.footer-svg .link-svg-item:focus .svg-contacts,{
     background-color: #31d0aa;
 }
 
