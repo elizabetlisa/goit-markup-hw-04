@@ -178,8 +178,7 @@ li:hover .text-overlay {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
-    ;
+    color: #2E2F42;
 }
 
 .nav-menu .link:hover,
@@ -228,7 +227,12 @@ li:hover .text-overlay {
 .secton-image {
     position: relative;
     overflow: hidden;
-
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-left: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
 }
 
 .studio .page-title {
@@ -332,12 +336,6 @@ li:hover .text-overlay {
     gap: 24px;
 }
 
-.list-item-svg {
-    margin-bottom: 16px;
-}
-
-
-
 .contacts .about-page {
     margin-bottom: 72px;
 }
@@ -357,6 +355,16 @@ li:hover .text-overlay {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+
+.svg-contacts-footer{
+
+}
+
+.list-item-svg-footer{
+    width: 100%;
+    height: 100%;
 }
 
 .svg-contacts:hover,
@@ -393,7 +401,7 @@ li:hover .text-overlay {
 
 .about-page {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -413,10 +421,9 @@ li:hover .text-overlay {
 }
 
 .contacts .list-item {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: var(--white);
 }
 
 .contacts {
@@ -446,16 +453,6 @@ li:hover .text-overlay {
 .our-portfolio .text-overlay:hover {
     transform: translateY(0%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.our-portfolio .about-us {
-    margin-left: 16px;
-    padding-top: 32px;
-    padding-bottom: 8px;
-}
-
-.our-portfolio .text-section {
-    margin-left: 16px;
 }
 
 .our-portfolio-overlay {
@@ -488,10 +485,6 @@ li:hover .text-overlay {
 
 .our-portfolio .about-us {
     margin-bottom: 8px
-}
-
-.our-portfolio .text-section {
-    padding-bottom: 32px;
 }
 
 .our-portfolio .text-section {
