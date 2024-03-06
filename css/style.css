@@ -201,7 +201,6 @@ background-color: #404bbf;
     background-color: #4d5ae5;
     height: 100%;
     width: 100%;
-    /* transform: translateY(100%); */
 
 }
 .secton-image{
@@ -209,10 +208,6 @@ background-color: #404bbf;
     overflow: hidden;
 
 }
-
-/* .our-portfolio .list-item:hover .secton-image{
-    transform: translateY(0%);
-} */
 
 .studio .page-title{
     font-family: Roboto, sans-serif;
@@ -314,8 +309,6 @@ margin-bottom: 8px;
 }
 
 .list-item-svg{
-    /* margin-right: auto;
-    margin-left: auto; */
     margin-top: 8px;
 }
 
@@ -438,18 +431,11 @@ background-color: #404BBF;
     margin-left: 16px;
 }
 
-/* .our-portfolio .list-item:hover .our-portfolio-overlay{ 
-    transform: translateY(0%);
-} */
-
 .our-portfolio-overlay{
 position: relative;
 overflow: hidden;
     
 }
-/* .our-portfolio .list-item:hover .our-portfolio-overlay{
-    transform: translateY(0%);
-} */
 
 .our-portfolio .list {
     background-color: #FFFFFF;
