@@ -486,10 +486,18 @@ overflow: hidden;
     color: #f4f4fd;
 }
 
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
 .footer-container .logo {
     display: inline-block;
     margin-right: 0;
     margin-bottom: 16px;
+}
+
+.footer-logo-div{
+    /* margin-right: 120px */
 }
 
 .footer-text {
