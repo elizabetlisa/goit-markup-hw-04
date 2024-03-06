@@ -357,11 +357,6 @@ li:hover .text-overlay {
     border-radius: 50%;
 }
 
-
-.svg-contacts-footer{
-
-}
-
 .list-item-svg-footer{
     width: 100%;
     height: 100%;
@@ -569,4 +564,8 @@ li:hover .text-overlay {
 
 .social-media-paragraf {
     margin-bottom: 16px;
+}
+
+.nav-menu .link-after {
+    color: #404bbf;
 }
