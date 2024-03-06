@@ -384,10 +384,22 @@ background-color: #404BBF;
 }
 
 .our-portfolio .list-item{
+    max-width: 360px;
+    max-height: 420px;
     position: relative;;
     overflow: hidden;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-portfolio .about-us{
+    margin-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.our-portfolio .text-section{
+    margin-left: 16px;
 }
 
 .our-portfolio .list-item:hover .text-section{ 
