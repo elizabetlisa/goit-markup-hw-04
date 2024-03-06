@@ -206,7 +206,7 @@ background-color: #404bbf;
 
 }
 
-.our-portfolio .list:hover .secton-image{
+.our-portfolio .list-item:hover .secton-image{
     transform: translateY(0%);
 }
 
