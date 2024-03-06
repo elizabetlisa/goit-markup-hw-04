@@ -497,7 +497,7 @@ overflow: hidden;
 }
 
 .footer-logo-div{
-    /* margin-right: 120px */
+    margin-right: 120px
 }
 
 .footer-text {
@@ -516,7 +516,6 @@ font-family: Roboto, sans-serif;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-left: 120px;
 }
 
 /* svg-icon-contacts */
