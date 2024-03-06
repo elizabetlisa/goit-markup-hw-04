@@ -191,6 +191,10 @@ background-color: #404bbf;
     overflow: hidden;
 }
 
+.secton-image:hover{
+    transform: translateY(0%);
+}
+
 .studio .page-title{
     font-family: Roboto, sans-serif;
     font-weight: 700;
