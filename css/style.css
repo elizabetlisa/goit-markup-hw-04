@@ -568,6 +568,10 @@ li:hover .text-overlay {
     margin-bottom: 16px;
 }
 
+.svg-contacts-footer{
+    fill: #f4f4fd;
+}
+
 .nav-menu .link-after {
     color: #404bbf;
 }
