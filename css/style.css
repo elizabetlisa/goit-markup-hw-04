@@ -403,6 +403,7 @@ background-color: #404BBF;
     overflow: auto;
     transform: translateY(153%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .our-portfolio .list-item:hover .our-portfolio-overlay{
     transform: translateY(0%);
