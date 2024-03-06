@@ -1,0 +1,493 @@
+/* general styles code */
+
+ul,
+ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+button{
+    cursor: pointer;
+}
+.text-section {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header code */
+
+.span-header {
+    color: #2e2f42;
+}
+
+.before-active::after {
+    content: " ";
+    width: 48px;
+    height: 4px;
+    background-color: #404BBF;
+    display: block;
+    position: relative;
+    bottom: -4px;
+    margin-bottom: -4px;
+    border-radius: 2px;
+}
+
+.before-active:active::after {
+    content: " ";
+    width: 48px;
+    height: 4px;
+    background-color: #404BBF;
+    display: block;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+    border-radius: 2px;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.link-svg-item{
+    display: block;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu .list {
+    gap: 40px;
+}
+
+.header-container .link {
+    display: block;
+    padding: 24px 0;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.page-header .list {
+    display: flex;
+}
+
+.header-address .link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-address {
+    display: flex;
+    font-style: normal;
+}
+
+.header-address .list {
+    gap: 40px;
+}
+
+.header-address .link:hover,
+.header-address .link:focus {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
+}
+
+.nav-menu .link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-menu .link:hover,
+.nav-menu .link:focus {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
+}
+
+/* studio section code */
+
+.studio {
+    position: relative;
+    height: 600px;
+}
+
+.studio{
+    padding: 188px 0;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.jpg);
+    block-size: cover;
+    background-position: center center;
+    background-color: #313131;
+    max-width: 1440px;
+    max-height: 600px;
+}
+
+.studio .page-title{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+    max-width: 496px;
+}
+.studio .btn{
+    align-items: center;
+}
+
+.btn {
+    display: block;
+    padding: 16px 32px;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4px;
+    border: none;
+    min-width: 169px;
+    height: 56px;
+}
+
+.btn:hover,
+.btn:focus {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #404BBF;
+}
+
+
+/* portfolio section code */
+
+.portfolio-list-item {
+    text-align: left;
+}
+
+.portfolio-list-item {
+    background-color: #FFFFFF;
+}
+
+.portfolio-list{
+    gap: 24px;
+    display: flex;
+}
+
+.portfolio-list-item{
+    width: calc((100% - 72px) / 4);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.portfolio .menu-about-page{
+margin-bottom: 8px;
+}
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-list-item .text-section,
+.portfolio-list-item .menu-about-page {
+    text-align: left;
+}
+
+/* contact section code */
+
+.contacts .list {
+    display: flex;
+    width: 464px;
+}
+
+.list-menu-svg{
+    display: flex;
+}
+
+.list-item-svg{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+}
+
+
+
+.contacts .about-page {
+    margin-bottom: 72px;
+}
+
+.div-contacts{
+    padding: 32px 0;
+}
+
+.contacts{
+    padding: 120px 0;
+}
+
+.svg-contacts{
+    stroke: #FFFFFF;
+    fill: none;
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.svg-contacts:hover{
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+background-color: #404BBF;
+}
+
+.contacts .list{
+    display: flex;
+    gap: 24px;
+    flex-wrap: nowrap;
+}
+
+.about-us {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.menu-about-page{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #2e2f42;
+}
+.about-page {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.contacts .about-us-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.contacts .list-item {
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
+}
+
+.contacts {
+    background-color: #F4F4FD;
+
+}
+
+/* our-portfolio section code */
+
+.our-portfolio .list-item:nth-child(n+4) {
+    margin-bottom: 0;
+}
+
+.our-portfolio .list-item{
+    position: relative;;
+    overflow: hidden;
+}
+
+.our-portfolio-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+    width: 360px;
+    height: 300px;
+    padding-left: 32px;
+    padding-top: 40px;
+    overflow: auto;
+    transform: translateY(153%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.our-portfolio .list-item:hover .our-portfolio-overlay{
+    transform: translateY(0%);
+}
+
+.our-portfolio .list {
+    background: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.our-portfolio .about-page {
+    margin-bottom: 72px;
+}
+
+.div-our-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.our-portfolio .about-us {
+    margin-bottom: 8px
+}
+
+.our-portfolio .list-item {
+    margin-bottom: 48px;
+}
+
+.our-portfolio .text-section {
+    padding-bottom: 32px;
+}
+
+.our-portfolio .text-section {
+    text-align: left;
+}
+
+/* footer code */
+
+.span-footer {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.footer-container .logo {
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+
+.footer-text {
+    width: 264px;
+}
+
+.page-footer {
+    padding: 100px 0;
+    background-color: #2e2f42;
+}
+
+.footer-svg{
+font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-left: 120px;
+}
+
+.div-svg{
+    padding: 24px 102.14px;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+
+.footer-list-item{
+    display: flex;
+}
+.footer-list-menu-svg{
+    display: flex;
+    gap: 24px;
+}
+.social-media-footer{
+    margin-bottom: 16px;
+}
+
+.footer-svg .svg-contacts:hover{
+    background-color: #31D0AA;
+}
