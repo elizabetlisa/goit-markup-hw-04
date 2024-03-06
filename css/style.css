@@ -425,7 +425,8 @@ background-color: #404BBF;
     margin-left: 16px;
 }
 
-.our-portfolio .list-item:hover .text-section{ 
+.our-portfolio .list-item:hover .text-section
+.our-portfolio .list-item:hover .text-overlay{ 
     transform: translateY(0%);
 }
 
