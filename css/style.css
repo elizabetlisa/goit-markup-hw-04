@@ -472,10 +472,15 @@ font-family: Roboto, sans-serif;
 }
 
 .div-svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
     padding: 24px 102.14px;
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .footer-list-item{
