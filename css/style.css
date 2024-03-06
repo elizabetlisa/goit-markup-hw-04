@@ -203,9 +203,10 @@ background-color: #404bbf;
 .secton-image{
     position: relative;
     overflow: hidden;
+
 }
 
-.secton-image:hover{
+.our-portfolio .list:hover .secton-image{
     transform: translateY(0%);
 }
 
