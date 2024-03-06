@@ -85,6 +85,11 @@ li:hover .text-overlay {
     background-color: #31d0aa;
 }
 
+.contacts .link-svg-item:hover,
+.contacts .link-svg-item:focus {
+    background-color: #404bbf;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
