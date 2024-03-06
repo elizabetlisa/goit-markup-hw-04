@@ -82,7 +82,7 @@ li:hover .text-overlay {
 
 .link-svg-item:hover,
 .link-svg-item:focus {
-    /* background-color: #404bbf; */
+    background-color: #404bbf;
 }
 
 .logo {
@@ -568,8 +568,8 @@ li:hover .text-overlay {
     margin-bottom: 16px;
 }
 
-.footer-svg .link-svg-item:hover .svg-contacts,
-.footer-svg .link-svg-item:active .svg-contacts{
+.footer-svg .link-svg-item-footer:hover .svg-contacts,
+.footer-svg .link-svg-item-footer:active .svg-contacts{
     background-color: #31d0aa;
 }
 
