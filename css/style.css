@@ -309,7 +309,7 @@ margin-bottom: 8px;
 }
 
 .list-item-svg{
-    margin-top: 8px;
+    margin-bottom: 16px;
 }
 
 
@@ -545,4 +545,7 @@ font-family: Roboto, sans-serif;
 
 .footer-svg .svg-contacts:hover{
     background-color: #31D0AA;
+}
+.social-media-paragraf{
+    margin-bottom: 16px;
 }
