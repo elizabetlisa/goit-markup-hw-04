@@ -37,7 +37,7 @@ button{
     color: #434455;
 }
 
-li:hover .overlay {
+li:hover .text-overlay {
     transform: translateY(0%);
 }
 
@@ -210,9 +210,9 @@ background-color: #404bbf;
 
 }
 
-.our-portfolio .list-item:hover .secton-image{
+/* .our-portfolio .list-item:hover .secton-image{
     transform: translateY(0%);
-}
+} */
 
 .studio .page-title{
     font-family: Roboto, sans-serif;
@@ -423,8 +423,9 @@ background-color: #404BBF;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.our-portfolio .text-overlay:hover{
+.our-portfolio .text-overlay:hover {
     transform: translateY(0%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-portfolio .about-us{
@@ -437,18 +438,18 @@ background-color: #404BBF;
     margin-left: 16px;
 }
 
-.our-portfolio .list-item:hover .our-portfolio-overlay{ 
+/* .our-portfolio .list-item:hover .our-portfolio-overlay{ 
     transform: translateY(0%);
-}
+} */
 
 .our-portfolio-overlay{
 position: relative;
 overflow: hidden;
     
 }
-.our-portfolio .list-item:hover .our-portfolio-overlay{
+/* .our-portfolio .list-item:hover .our-portfolio-overlay{
     transform: translateY(0%);
-}
+} */
 
 .our-portfolio .list {
     background-color: #FFFFFF;
