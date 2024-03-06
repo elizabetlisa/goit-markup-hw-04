@@ -186,6 +186,11 @@ background-color: #404bbf;
     max-height: 600px;
 }
 
+.secton-image{
+    position: relative;
+    overflow: hidden;
+}
+
 .studio .page-title{
     font-family: Roboto, sans-serif;
     font-weight: 700;
